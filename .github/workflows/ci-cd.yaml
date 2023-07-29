@@ -2,7 +2,7 @@ name: Continuos Integration and Deployment
 
 on:
   push:
-    branches: -main
+    branches: -master
 
 jobs:
   build:
