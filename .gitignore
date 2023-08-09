@@ -398,3 +398,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/JobPortal/CiCdDemo.db-wal
+/JobPortal/CiCdDemo.db-shm
+/JobPortal/CiCdDemo.db
