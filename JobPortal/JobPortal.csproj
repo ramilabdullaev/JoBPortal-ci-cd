@@ -11,6 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+	  <ResolvedFileToPublish Include="..\appsettings.json">
+		  <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+	  </ResolvedFileToPublish>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.9">
       <PrivateAssets>all</PrivateAssets>
